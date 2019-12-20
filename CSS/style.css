@@ -1,0 +1,61 @@
+canvas {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: roboto;
+  font-size: 18px;
+}
+
+#ac-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1001;
+}
+#popup {
+  background: #ffffff;
+  border: 5px solid #000;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  box-shadow: #64686e 0px 0px 3px 3px;
+  -moz-box-shadow: #64686e 0px 0px 3px 3px;
+  -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+.title {
+  font-family: "Girassol", cursive;
+  text-decoration: underline;
+  font-size: 42px;
+}
+.block {
+  display: block;
+  width: 80%;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
